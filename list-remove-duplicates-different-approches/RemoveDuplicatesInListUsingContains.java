@@ -7,10 +7,10 @@ import java.util.List;
 public class RemoveDuplicatesInListUsingContains {
 	
 	
-	public static List<Integer> removeDuplicates(ArrayList<Integer> list) {
-		List<Integer> newList = new ArrayList<>();
+	public static <T> ArrayList<T> removeDuplicates(ArrayList<T> list) {
+		ArrayList<T> newList = new ArrayList<>();
 		
-		for (Integer item : list) {
+		for (T item : list) {
 			if(!newList.contains(item)){
 				newList.add(item);
 			}

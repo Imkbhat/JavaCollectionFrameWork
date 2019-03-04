@@ -39,5 +39,12 @@ public class PeopleListComparator {
 		System.out.println("Comparing using Collections.sort based on name:==>  " +person);
 		
 	}
+	
+	/*
+	Output:
+	List<People> before sort =======> [{name='Kiran', age=28}, {name='Karthik', age=29}, {name='Kavya', age=24}, {name='Koushik', age=22}, {name='Lakshmi', age=24}, {name='Amoolya', age=14}, {name='Ananya', age=8}]
+	Comparing people by their Age ===> [{name='Ananya', age=8}, {name='Amoolya', age=14}, {name='Koushik', age=22}, {name='Kavya', age=24}, {name='Lakshmi', age=24}, {name='Kiran', age=28}, {name='Karthik', age=29}]
+	Comparing using Collections.sort based on name:==>  [{name='Amoolya', age=14}, {name='Ananya', age=8}, {name='Karthik', age=29}, {name='Kavya', age=24}, {name='Kiran', age=28}, {name='Koushik', age=22}, {name='Lakshmi', age=24}]
+	*/
 
 }

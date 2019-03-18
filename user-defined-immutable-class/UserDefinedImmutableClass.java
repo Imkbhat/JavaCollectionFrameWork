@@ -1,6 +1,7 @@
 package com.string;
 
-public class UserDefinedImmutableClass {
+//class should be final, hence we shouldn't allow class to inherit
+public final class UserDefinedImmutableClass {
 
 	public static void main(String[] args) {
 		Student student  = new Student("Bhatt", 123);
